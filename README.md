@@ -14,14 +14,14 @@ The main goal of this repository is to learn Deep Learning concepts from fundame
 
 ## 📊 My Learning Progress
 
-| Unit | Topic | Status |
+| Stage | Topic | Status |
 |------|-------|--------|
-| Unit I | Building Models with TensorFlow | 🟡 In Progress |
-| Unit II | Building Models with Keras | 🟡 In Progress |
-| Unit III | NVIDIA DGX Station A100 | 🔴 Not Started |
-| Unit IV | Deep Convolutional Neural Networks | 🔴 Not Started |
-| Unit V | Autoencoders & Pre-trained CNNs | 🔴 Not Started |
-| Unit VI | RNNs & GANs | 🔴 Not Started |
+| Stage 1 | Building Models with TensorFlow | 🟡 In Progress |
+| Stage 2 | Building Models with Keras | 🟡 In Progress |
+| Stage 3 | NVIDIA DGX Station A100 | 🔴 Not Started |
+| Stage 4 | Deep Convolutional Neural Networks | 🔴 Not Started |
+| Stage 5 | Autoencoders & Pre-trained CNNs | 🔴 Not Started |
+| Stage 6 | RNNs & GANs | 🔴 Not Started |
 
 ### Legend
 
@@ -46,16 +46,16 @@ By completing this course, I aim to:
 
 # 📚 Course Syllabus
 
-## Unit Folders
+## Stage Folders
 
-- [Unit I — Building Models with TensorFlow](unit%20i/README.md)
-- [Unit II — Building Models with Keras](unit%20ii/README.md)
-- [Unit III — NVIDIA DGX Station A100](unit%20iii/README.md)
-- [Unit IV — Deep Convolutional Neural Networks](unit%20iv/README.md)
-- [Unit V — Autoencoders & Pre-trained CNNs](unit%20v/README.md)
-- [Unit VI — RNNs & GANs](unit%20vi/README.md)
+- [Stage 1 — Building Models with TensorFlow](Stage1/README.md)
+- [Stage 2 — Building Models with Keras](Stage2/README.md)
+- [Stage 3 — NVIDIA DGX Station A100](Stage3/README.md)
+- [Stage 4 — Deep Convolutional Neural Networks](Stage4/README.md)
+- [Stage 5 — Autoencoders & Pre-trained CNNs](Stage5/README.md)
+- [Stage 6 — RNNs & GANs](Stage6/README.md)
 
-## Unit I — Building Models with TensorFlow
+## Stage 1 — Building Models with TensorFlow
 
 ### Topics
 
@@ -80,7 +80,7 @@ By completing this course, I aim to:
 
 ---
 
-## Unit II — Building Models with Keras
+## Stage 2 — Building Models with Keras
 
 ### Topics
 
@@ -117,7 +117,7 @@ By completing this course, I aim to:
 
 ---
 
-## Unit III — NVIDIA DGX Station A100
+## Stage 3 — NVIDIA DGX Station A100
 
 ### Topics
 
@@ -135,7 +135,7 @@ By completing this course, I aim to:
 
 ---
 
-## Unit IV — Deep Convolutional Neural Networks
+## Stage 4 — Deep Convolutional Neural Networks
 
 ### Topics
 
@@ -156,7 +156,7 @@ By completing this course, I aim to:
 
 ---
 
-## Unit V — Autoencoders & Pre-trained CNNs
+## Stage 5 — Autoencoders & Pre-trained CNNs
 
 ### Topics
 
@@ -176,7 +176,7 @@ By completing this course, I aim to:
 
 ---
 
-## Unit VI — RNNs & GANs
+## Stage 6 — RNNs & GANs
 
 ### Topics
 

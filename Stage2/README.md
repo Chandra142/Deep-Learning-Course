@@ -1,4 +1,4 @@
-# Unit II — Building Models with Keras
+# Stage 2 — Building Models with Keras
 
 ## Overview
 This unit focuses on Keras, a high-level deep learning API used for building and training models efficiently.

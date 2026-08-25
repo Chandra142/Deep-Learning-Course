@@ -1,4 +1,4 @@
-# Unit V — Autoencoders & Pre-trained CNNs
+# Stage 5 — Autoencoders & Pre-trained CNNs
 
 ## Overview
 This unit covers unsupervised representation learning using autoencoders and transfer learning using pre-trained convolutional neural networks.

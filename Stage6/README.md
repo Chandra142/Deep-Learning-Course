@@ -1,4 +1,4 @@
-# Unit VI — RNNs & GANs
+# Stage 6 — RNNs & GANs
 
 ## Overview
 This unit explores sequence modeling with recurrent neural networks and generative modeling using generative adversarial networks.

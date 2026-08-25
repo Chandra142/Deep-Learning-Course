@@ -1,7 +1,7 @@
-# Unit IV — Deep Convolutional Neural Networks
+# Stage 4 — Deep Convolutional Neural Networks
 
 ## Overview
-This unit introduces convolutional neural networks (CNNs), which are widely used for image recognition and visual pattern learning.
+This stage introduces convolutional neural networks (CNNs), which are widely used for image recognition and visual pattern learning.
 
 ## Topics Covered
 - Introduction to CNNs
