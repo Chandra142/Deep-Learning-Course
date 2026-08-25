@@ -46,32 +46,41 @@ By completing this course, I aim to:
 
 # 📚 Course Syllabus
 
+## Unit Folders
+
+- [Unit I — Building Models with TensorFlow](unit%20i/README.md)
+- [Unit II — Building Models with Keras](unit%20ii/README.md)
+- [Unit III — NVIDIA DGX Station A100](unit%20iii/README.md)
+- [Unit IV — Deep Convolutional Neural Networks](unit%20iv/README.md)
+- [Unit V — Autoencoders & Pre-trained CNNs](unit%20v/README.md)
+- [Unit VI — RNNs & GANs](unit%20vi/README.md)
+
 ## Unit I — Building Models with TensorFlow
 
 ### Topics
 
-- [ ] Introduction to TensorFlow
-- [ ] TensorFlow Installation
-- [ ] TensorFlow Ranks and Tensors
-- [ ] TensorFlow Computation Graphs
-- [ ] Variables in TensorFlow
-- [ ] TensorFlow Optimizers
-- [ ] Transforming Tensors as Multidimensional Data Arrays
-- [ ] TensorBoard
-- [ ] Introduction to Deep Learning
-- [ ] Applications of Deep Learning
+- [x] Introduction to TensorFlow
+- [x] TensorFlow Installation
+- [x] TensorFlow Ranks and Tensors
+- [x] TensorFlow Computation Graphs
+- [x] Variables in TensorFlow
+- [x] TensorFlow Optimizers
+- [x] Transforming Tensors as Multidimensional Data Arrays
+- [x] TensorBoard
+- [x] Introduction to Deep Learning
+- [x] Applications of Deep Learning
 
 ### Practical Work
 
-- [ ] TensorFlow basics
-- [ ] Creating and manipulating tensors
-- [ ] TensorFlow variables
-- [ ] TensorFlow optimizers
-- [ ] TensorBoard visualization
+- [x] TensorFlow basics
+- [x] Creating and manipulating tensors
+- [x] TensorFlow variables
+- [x] TensorFlow optimizers
+- [x] TensorBoard visualization
 
 ---
 
-# 🧩 Unit II — Building Models with Keras
+## Unit II — Building Models with Keras
 
 ### Topics
 
@@ -96,6 +105,95 @@ By completing this course, I aim to:
 - [ ] Overfitting
 - [ ] Underfitting
 - [ ] Hyperparameter Tuning
+
+### Practical Work
+
+- [x] Regression model using Keras
+- [x] Model training and evaluation
+- [x] Model prediction and saving/loading
+- [ ] MLP classification workflow
+- [ ] Keras image/text classification experiments
+- [ ] Hyperparameter tuning exercises
+
+---
+
+## Unit III — NVIDIA DGX Station A100
+
+### Topics
+
+- [ ] Hardware architecture of NVIDIA DGX Station A100
+- [ ] Software stack and deep learning environment
+- [ ] GPU acceleration and performance considerations
+- [ ] AI workstation setup for large-scale model training
+- [ ] Use cases of high-performance computing in deep learning
+
+### Practical Work
+
+- [ ] DGX architecture study
+- [ ] GPU training workflow overview
+- [ ] Performance and resource analysis
+
+---
+
+## Unit IV — Deep Convolutional Neural Networks
+
+### Topics
+
+- [ ] Introduction to CNNs
+- [ ] Convolution operation and receptive fields
+- [ ] Pooling and feature extraction
+- [ ] Filters, kernels, and activation maps
+- [ ] CNN architectures for image classification
+- [ ] Training and optimization of CNNs
+- [ ] Evaluation of deep CNN models
+
+### Practical Work
+
+- [ ] Build a CNN model from scratch
+- [ ] Train a CNN on image data
+- [ ] Evaluate model performance
+- [ ] Compare CNN performance with shallow networks
+
+---
+
+## Unit V — Autoencoders & Pre-trained CNNs
+
+### Topics
+
+- [ ] Autoencoders: concept and working
+- [ ] Types of autoencoders
+- [ ] Data compression and reconstruction
+- [ ] Pre-trained CNN architectures
+- [ ] Transfer learning for image tasks
+- [ ] Feature extraction using pre-trained models
+
+### Practical Work
+
+- [ ] Implement an autoencoder
+- [ ] Train and reconstruct images
+- [ ] Use pre-trained CNNs for feature extraction
+- [ ] Apply transfer learning on a dataset
+
+---
+
+## Unit VI — RNNs & GANs
+
+### Topics
+
+- [ ] Recurrent Neural Networks (RNNs)
+- [ ] Long Short-Term Memory (LSTM)
+- [ ] Gated Recurrent Units (GRU)
+- [ ] Sequence modeling and time-series data
+- [ ] Generative Adversarial Networks (GANs)
+- [ ] Generator and discriminator networks
+- [ ] GAN applications in image generation and interactive AI
+
+### Practical Work
+
+- [ ] Build and train an RNN/LSTM model
+- [ ] Explore sequential data modeling
+- [ ] Develop a simple GAN model
+- [ ] Deploy a small AI app using Streamlit
 
 ---
 

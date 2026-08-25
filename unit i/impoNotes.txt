@@ -1,0 +1,89 @@
+================ VENV QUICK NOTES ================
+
+1. CHECK PYTHON
+python --version
+py --list
+
+2. CREATE VENV
+python -m venv deepl_env
+
+3. ACTIVATE (CMD)
+deepl_env\Scripts\activate
+
+4. DEACTIVATE
+deactivate
+
+5. CHECK ACTIVE PYTHON
+where python
+
+6. UPGRADE PIP
+python -m pip install --upgrade pip
+
+7. INSTALL LIBRARY
+pip install numpy
+pip install tensorflow
+
+8. INSTALL SPECIFIC VERSION
+pip install numpy==1.26.4
+
+9. SEE INSTALLED LIBRARIES
+pip list
+
+10. UNINSTALL
+pip uninstall numpy
+
+11. SAVE DEPENDENCIES
+pip freeze > requirements.txt
+
+12. INSTALL FROM requirements.txt
+pip install -r requirements.txt
+
+13. DELETE VENV (CMD)
+rmdir /s /q deepl_env
+
+
+========== GITHUB + VENV ==========
+
+DO NOT PUSH VENV TO GITHUB.
+
+Add to .gitignore:
+
+deepl_env/
+__pycache__/
+*.pyc
+.env
+
+Push this instead:
+
+requirements.txt
+
+
+========== NEW ML PROJECT ==========
+
+python -m venv deepl_env
+deepl_env\Scripts\activate
+pip install tensorflow numpy pandas matplotlib
+pip freeze > requirements.txt
+
+
+========== CLONED PROJECT ==========
+
+git clone <repo-url>
+cd <project-folder>
+
+python -m venv deepl_env
+deepl_env\Scripts\activate
+pip install -r requirements.txt
+
+
+=================================================
+
+REMEMBER:
+
+CREATE     → python -m venv deepl_env
+ACTIVATE   → deepl_env\Scripts\activate
+INSTALL    → pip install <library>
+SAVE       → pip freeze > requirements.txt
+DEACTIVATE → deactivate
+
+=================================================
