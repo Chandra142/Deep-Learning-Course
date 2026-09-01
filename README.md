@@ -16,10 +16,10 @@ The main goal of this repository is to learn Deep Learning concepts from fundame
 
 | Stage | Topic | Status |
 |------|-------|--------|
-| Stage 1 | Building Models with TensorFlow | 🟡 In Progress |
+| Stage 1 | Building Models with TensorFlow | ✅ Completed |
 | Stage 2 | Building Models with Keras | 🟡 In Progress |
 | Stage 3 | NVIDIA DGX Station A100 | 🔴 Not Started |
-| Stage 4 | Deep Convolutional Neural Networks | 🔴 Not Started |
+| Stage 4 | Deep Convolutional Neural Networks | 🟡 In Progress |
 | Stage 5 | Autoencoders & Pre-trained CNNs | 🔴 Not Started |
 | Stage 6 | RNNs & GANs | 🔴 Not Started |
 
@@ -99,8 +99,8 @@ By completing this course, I aim to:
 - [x] Prediction using `predict()`
 - [x] Saving Models
 - [x] Loading Models
-- [ ] Multi-layer Perceptron Classification
-- [ ] Image Classification with Keras
+- [x] Multi-layer Perceptron Classification
+- [x] Image Classification with Keras
 - [ ] Text Classification
 - [ ] Overfitting
 - [ ] Underfitting
@@ -111,9 +111,19 @@ By completing this course, I aim to:
 - [x] Regression model using Keras
 - [x] Model training and evaluation
 - [x] Model prediction and saving/loading
-- [ ] MLP classification workflow
-- [ ] Keras image/text classification experiments
+- [x] MLP classification workflow
+- [x] Keras image classification experiment using Intel dataset
 - [ ] Hyperparameter tuning exercises
+
+### Current Work
+
+- [x] Downloaded Intel image dataset using `kagglehub`
+- [x] Loaded training and testing image datasets
+- [x] Built and validated CNN model architecture
+- [x] Compiled CNN with optimizer, loss, and metrics
+- [ ] Train CNN model on the dataset
+- [ ] Evaluate model accuracy and loss
+- [ ] Improve the CNN model performance
 
 ---
 
@@ -139,11 +149,11 @@ By completing this course, I aim to:
 
 ### Topics
 
-- [ ] Introduction to CNNs
-- [ ] Convolution operation and receptive fields
-- [ ] Pooling and feature extraction
-- [ ] Filters, kernels, and activation maps
-- [ ] CNN architectures for image classification
+- [x] Introduction to CNNs
+- [x] Convolution operation and receptive fields
+- [x] Pooling and feature extraction
+- [x] Filters, kernels, and activation maps
+- [x] CNN architectures for image classification
 - [ ] Training and optimization of CNNs
 - [ ] Evaluation of deep CNN models
 
