@@ -1,4 +1,4 @@
-# 🧠 Deep Learning Course — Professional ML Engineering Portfolio
+# 🧠 Deep Learning Course
 
 > A comprehensive deep learning course project demonstrating proficiency in neural network architecture design, model optimization, and production-ready ML workflows.
 
