@@ -31,7 +31,7 @@ This repository contains a **complete deep learning engineering curriculum** wit
 | **Computer Vision** | CNNs, Pooling, Feature Extraction | 🟡 In Progress |
 | **Advanced Models** | RNNs, LSTMs, Autoencoders, GANs | 📋 Planned |
 | **Model Optimization** | Hyperparameter Tuning, Regularization | ✅ Complete |
-| **Hardware Acceleration** | NVIDIA DGX A100, GPU Computing | 📋 Planned |
+| **Hardware Acceleration** | NVIDIA DGX A100, GPU Computing | 🟡 In Progress |
 
 ---
 
@@ -54,7 +54,7 @@ Deep-Learning-Course/
 │   └── README.md
 │
 ├── Stage3/                          # GPU & Hardware Architecture
-│   ├── dgx_architecture.md         # DGX A100 study materials
+│   ├── theory.ipynb                # Image-segmentation theory notes
 │   └── README.md
 │
 ├── Stage4/                          # Deep CNNs
@@ -120,7 +120,7 @@ By completing this course, I am developing expertise in:
 | CO | Outcome | Evidence |
 |----|---------|----------|
 | **CO1** | Build & optimize deep learning models with TensorFlow | [Stage 1](Stage1/README.md) - Tensor manipulation & optimization |
-| **CO2** | Understand GPU architecture (NVIDIA DGX A100) | [Stage 3](Stage3/README.md) - Hardware study |
+| **CO2** | Understand GPU architecture (NVIDIA DGX A100) | [Stage 3](Stage3/README.md) - Hardware study and segmentation theory |
 | **CO3** | Apply CNNs for image classification at scale | [Stage 2](Stage2/README.md) & [Stage 4](Stage4/README.md) |
 | **CO4** | Implement Autoencoders & Transfer Learning | [Stage 5](Stage5/README.md) - Feature extraction |
 | **CO5** | Model sequential data with RNNs & LSTMs | [Stage 6](Stage6/README.md) - Time series |
@@ -180,9 +180,9 @@ Core concepts: Sequential Models, Dense Layers, Activation Functions, Hyperparam
 ---
 
 ### [Stage 3 — GPU & Hardware Architecture](Stage3/README.md)
-**Status:** 📋 **Planned**
+**Status:** 🟡 **In Progress**
 
-Topics: NVIDIA DGX A100, GPU compute, distributed training, performance optimization
+Topics: NVIDIA DGX A100, GPU compute, performance optimization, and image-segmentation theory
 
 ---
 
@@ -263,7 +263,7 @@ Legend: ✅ Complete | 🟡 In Progress | 📋 Planned | 🔴 Not Started
 
 ✅ Stage 1 ████████████████████ 100% — TensorFlow Fundamentals
 🟡 Stage 2 ███████████░░░░░░░░░ 55%  — Keras & Optimization
-📋 Stage 3 ░░░░░░░░░░░░░░░░░░░░ 0%   — GPU Architecture
+🟡 Stage 3 ███░░░░░░░░░░░░░░░░░ 15%  — GPU Architecture
 🟡 Stage 4 ███████░░░░░░░░░░░░░ 35%  — Deep CNNs
 📋 Stage 5 ░░░░░░░░░░░░░░░░░░░░ 0%   — Transfer Learning
 📋 Stage 6 ░░░░░░░░░░░░░░░░░░░░ 0%   — RNNs & GANs
@@ -503,24 +503,31 @@ By completing this course, I aim to:
 
 ## Stage 3 — NVIDIA DGX Station A100
 
-### Topics
+**Status:** 🟡 In Progress
+
+### Notes
+
+- [x] [Image Segmentation Theory](Stage3/theory.ipynb) — semantic, instance, and panoptic segmentation; U-Net; FCN; SegNet; Mask R-CNN; and Vision Transformers.
+
+### Learning Checklist
+
+#### DGX Station A100
 
 - [ ] Hardware architecture of NVIDIA DGX Station A100
 - [ ] Software stack and deep learning environment
 - [ ] GPU acceleration and performance considerations
 - [ ] AI workstation setup for large-scale model training
 - [ ] Use cases of high-performance computing in deep learning
+
+#### Computer Vision Theory
+
 - [x] Image segmentation concepts and common model architectures
-
-### Learning Material
-
-- [x] [Image segmentation theory notes](Stage3/theory.ipynb)
 
 ### Practical Work
 
-- [ ] DGX architecture study
-- [ ] GPU training workflow overview
-- [ ] Performance and resource analysis
+- [ ] Document the DGX architecture and available compute resources
+- [ ] Outline a GPU training workflow, including data preparation, checkpoints, and monitoring
+- [ ] Compare resource requirements and performance for a training workload
 
 ---
 
